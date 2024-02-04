@@ -5,6 +5,29 @@
 }
 
 .container{
-    max-width: 85%;;
+    max-width: 85%;
     margin: 0 auto;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+
+}
+
+img[alt="web-3-large"]{
+    max-width: 1000px;
+}
+
+aside.new{
+    display: grid;
+}
+
+.aside-container{
+    background-color: black;
+    color: #fff;
+    grid-column-start: 6;
+    grid-row: 1/span 3;
+
 }
