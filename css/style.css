@@ -4,8 +4,36 @@
     margin: 0;
 }
 
-body{
+html{
     font-size: 15px;
+
+}
+
+body{
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem;
+}
+
+.header nav{
+    display: none;
 }
