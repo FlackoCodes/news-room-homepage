@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    max-width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -29,16 +29,17 @@ li{
     list-style-type: none;
 }
 
-img[alt="web-3-large"]{
-    width: 1200px;
-
-}
-
-.blog-title{
+.main-container{
     display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
 }
 
 .about-blog{
-    display: grid;
-    column-gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 1200px;
 }

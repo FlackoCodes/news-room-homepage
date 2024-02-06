@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
+  
   <link rel="stylesheet" href="css/style.css">
 
   <title>Frontend Mentor | News homepage</title>
@@ -41,9 +42,13 @@
         <div class="blog-title">
           <div class="hero-image">
             <picture>
-             <source media="(max-width:768px )" srcset="./assets/images/image-web-3-mobile.jpg">
-            <img src="/assets/images/image-web-3-desktop.jpg" alt="web-3-large">
+              <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/image-web-3-desktop.jpg"
+              />
+              <img src="./assets/images/image-web-3-mobile.jpg" alt="" />
             </picture>
+          
           </div>
           <div class="about-blog">
             <div class="intro">
@@ -60,7 +65,6 @@
             </div>
           </div>
         </div>
-        <aside class="new">
           <div class="aside-container">
             <div>
               <h2>New </h2>
@@ -78,25 +82,39 @@
               <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </div>
           </div>
-        </aside>
       </div>
     </main>
     <section id="outro">
       <div class="outro-container">
         <div>
-          <h4>01</h4>
-          <h5>Reviving Retro PCs</h5>
-          <p>What happens when old PCs are given modern upgrades?</p>
+          <div>
+            <img src="/assets/images/image-retro-pcs.jpg" alt="">
+          </div>
+          <div>
+            <h4>01</h4>
+            <h5>Reviving Retro PCs</h5>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
         </div>
         <div>
-          <h4>02</h4>
-          <h5>Top 10 Laptops of 2022</h5>
-          <p>Our best picks for various needs and budgets.</p>
+          <div>
+            <img src="/assets/images/image-top-laptops.jpg" alt="">
+          </div>
+          <div>
+            <h4>02</h4>
+            <h5>Top 10 Laptops of 2022</h5>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
         </div>
         <div>
-          <h4>03</h4>
-          <h5>The Growth of Gaming</h5>
-          <p>How the pandemic has sparked fresh opportunities.</p>
+          <div>
+            <img src="/assets/images/image-gaming-growth.jpg" alt="">
+          </div>
+          <div>
+            <h4>03</h4>
+            <h5>The Growth of Gaming</h5>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
         </div>
       </div>
     </section>
