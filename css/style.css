@@ -19,9 +19,9 @@ img{
 }
 
 p{
-    line-height: 1.8;
+    line-height: 1.1;
     color: hsl(236, 13%, 42%);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
@@ -73,7 +73,7 @@ hr{
 }
 
 .main-paragraph{
-    margin-bottom: 1cap;
+    margin-bottom: 1rem;
 }
 
 .btn{
@@ -143,7 +143,7 @@ hr{
 
 .outro-container h5{
     color: hsl(240, 100%, 5%);
-    padding: .5rem 0;
+    padding: .8rem 0;
     font-size: 1.2rem;
     font-weight: 800;
 }
@@ -156,6 +156,28 @@ hr{
     margin-top: 2rem;
 }
 
+.attribution { font-size: 11px; text-align: center;
+    margin: 1rem 0;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 768px) {
+    .outro-container-large{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .outro-container img{
+        width: 160px;
+    }
+
+    .outro-container p{
+        font-size: 1.2rem;
+    }
+
+}
+
 @media screen and (min-width: 1024px) {
     body{
         max-width: 1200px;
@@ -164,6 +186,14 @@ hr{
     .header nav{
         display: block;
     }
+
+    p{
+        line-height: 1.5;
+        color: hsl(236, 13%, 42%);
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+ 
 
     .main-grid{
         display: grid;
@@ -178,7 +208,9 @@ hr{
 
     .intro h1{
         font-size: 3rem;
-        /* width: 200px; */
+        margin-top: 2rem;
+        font-weight: 800;
+        /* width: 250px; */
     }
 
     .read-more{
@@ -192,11 +224,12 @@ hr{
     .outro-container-large{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 2rem;
     }
 
-    .attribution { font-size: 11px; text-align: center;
-        margin: 1rem 0;
-        }
-        .attribution a { color: hsl(228, 45%, 44%); }
+    .header #menuButton{
+        display: none;
+    }
+
 
 }
