@@ -6,7 +6,6 @@
 
 html{
     font-size: 15px;
-
 }
 
 body{
@@ -17,6 +16,13 @@ body{
 img{
     max-width: 100%;
     width: 100%;
+}
+
+p{
+    line-height: 1.8;
+    color: hsl(236, 13%, 42%);
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 a{
@@ -36,4 +42,77 @@ ul{
 
 .header nav{
     display: none;
+}
+
+.header nav a:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.main-grid, .outro-container{
+    padding-top: 0 !important;
+    padding: 1.33rem;
+}
+
+.main-grid h1{
+    font-size: 2rem;
+    color: hsl(240, 100%, 5%);
+    margin: 1rem 0;
+    font-weight: 800;
+}
+
+.main-paragraph{
+    margin-bottom: 1cap;
+}
+
+.btn{
+    background-color: hsl(5, 85%, 63%);
+    width: 200px;
+    border: none;
+    color: hsl(36, 100%, 99%);
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+}
+
+.btn:hover{
+    background-color: hsl(240, 100%, 5%);
+    transition: all ease 2s;
+    cursor: pointer;
+}
+
+.aside-container{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.aside-container>div{
+    padding: 1.25rem;
+}
+
+.aside-container h2{
+    color: hsl(35, 77%, 62%);
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.aside-container h3{
+    color: hsl(36, 100%, 99%);
+    margin-top: 1rem;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+
+}
+
+.aside-container h3 :hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.aside-container article p{
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 83%);
+    font-weight: 400;
 }
