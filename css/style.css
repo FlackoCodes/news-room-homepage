@@ -27,10 +27,21 @@ p{
 
 a{
     text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-weight: 500;
 }
 
 ul{
     list-style-type: none;
+    display: flex;
+    gap: 1.25rem;
+
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: lightgray;
 }
 
 .header{
@@ -106,7 +117,7 @@ ul{
 
 }
 
-.aside-container h3 :hover{
+.aside-container h3:hover{
     color: hsl(35, 77%, 62%);
     cursor: pointer;
 }
@@ -115,4 +126,77 @@ ul{
     margin-bottom: 1rem;
     color: hsl(0, 0%, 83%);
     font-weight: 400;
+}
+
+.outro-container{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.outro-container h4{
+    color: hsl(236, 13%, 42%);
+    font-size: 1.6rem;
+    font-weight: 800;
+    opacity: 70%;
+}
+
+.outro-container h5{
+    color: hsl(240, 100%, 5%);
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.outro-container img{
+    width: 150px;
+}
+
+.outro-container-large{
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .header nav{
+        display: block;
+    }
+
+    .main-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+
+    .main-grid .blog{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .intro h1{
+        font-size: 3rem;
+        /* width: 200px; */
+    }
+
+    .read-more{
+        margin-top: 1.25rem;
+    }
+
+    .read-more .main-paragraph{
+        margin-bottom: 1.25rem;
+    }
+
+    .outro-container-large{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .attribution { font-size: 11px; text-align: center;
+        margin: 1rem 0;
+        }
+        .attribution a { color: hsl(228, 45%, 44%); }
+
 }
