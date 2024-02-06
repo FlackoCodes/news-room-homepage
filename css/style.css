@@ -9,37 +9,3 @@ body{
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
 }
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-ul{
-    display: flex;
-}
-
-li{
-    list-style-type: none;
-}
-
-.main-container{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-}
-
-.about-blog{
-    display: flex;
-    justify-content: space-between;
-}
-
-img{
-    max-width: 1200px;
-}
