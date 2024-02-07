@@ -28,13 +28,14 @@ p{
 a{
     text-decoration: none;
     color: hsl(236, 13%, 42%);
-    font-weight: 500;
+    font-weight: 800;
+    opacity: 80%;
 }
 
 ul{
     list-style-type: none;
     display: flex;
-    gap: 1.25rem;
+    gap: 1.5rem;
 
 }
 
@@ -148,6 +149,10 @@ hr{
     font-weight: 800;
 }
 
+.outro-container h5:hover{
+    color: hsl(5, 85%, 63%);
+}
+
 .outro-container img{
     width: 150px;
 }
@@ -166,7 +171,6 @@ hr{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
 
     .outro-container img{
         width: 160px;
