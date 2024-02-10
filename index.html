@@ -20,7 +20,7 @@
       <div>
         <img src="/images/logo.svg" alt="logo">
       </div>
-      <nav>
+      <nav class="nav-list-items-desktop">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">New</a></li>
@@ -31,10 +31,22 @@
       </nav>
       <div id="menuButton">
         <buttton>
-          <img src="/images/icon-menu.svg" alt="mobile-menu">
+          <img  class="mobile-btn"  src="/images/icon-menu.svg" alt="mobile-menu">
         </buttton>
       </div>
     </header>
+    <nav class="nav-list-items-mobile">
+      <button class="close-btn-main">
+        <img src="/images/icon-menu-close.svg" alt="" class="close-btn">
+      </button>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+  </nav>
     <section class="main-grid">
       <div>
            <picture>
@@ -110,4 +122,5 @@
         Coded by <a href="https://github.com/FlackoCodes" target="_blank">Flacko</a>.
       </div>
 </body>
+<script src="script.js"></script>
 </html>
